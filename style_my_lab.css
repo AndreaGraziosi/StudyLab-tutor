@@ -1,0 +1,27 @@
+.btn-primary {
+    color: black;
+    background-color:#8597CF;
+    background-image: none;
+    border-color: ##8597CF;
+    border-radius: .5rem;
+}
+
+.btn-primary:hover {
+    color: #8597CF;
+    background-color: #8597CF;
+    border-color: #8597CF;
+}
+
+.btn-custom-color {
+    color: black;
+    background-color:##538F76;
+    background-image: none;
+    border-color: #538F76;
+    border-radius: .5rem;
+}
+
+.btn-custom-color:hover {
+    color: #538F76;
+    background-color: #538F76;
+    border-color: #538F76;
+}
