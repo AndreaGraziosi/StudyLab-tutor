@@ -1,19 +1,34 @@
 .btn-primary {
-    color: black;
-    background-color:#8597CF;
+    color: white;
+    background-color:#DE5973;
     background-image: none;
-    border-color: ##8597CF;
+    border-color: #DE5973;
     border-radius: .5rem;
 }
 
 .btn-primary:hover {
-    color: #8597CF;
-    background-color: #8597CF;
-    border-color: #8597CF;
+    color: #DE5973;
+    background-color: #DE5973;
+    border-color: #DE5973;
 }
 
-.btn-custom-color {
-    color: black;
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #DE5973;
+    background-color: #DE5973;
+    border-color: #DE5973;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #DE5973;
+    background-color: #DE5973;
+    border-color: #DE5973;
+}
+
+.my-button {
+    color: white;
     background-color:##538F76;
     background-image: none;
     border-color: #538F76;
